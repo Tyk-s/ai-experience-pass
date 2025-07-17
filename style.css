@@ -1,0 +1,40 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+}
+
+.score {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
